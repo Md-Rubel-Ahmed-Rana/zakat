@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-image: url("./images/qurbani.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.head-container{
+    font-family: arial;
+    height: 100vh;
+    color: white;
+    text-align: left;
+    background-color: #0000006e;
+}
+
+.head-container > h1{
+    font-size: 50px;
+    width: 500px;
+    margin-left: 200px;
+    padding-top: 150px;
+}
+.head-container > p{
+    font-size: 20px;
+    width: 540px;
+    margin-left: 200px;
+    line-height: 25px;
+}
+.head-container > button{
+    font-size: 20px;
+    width: 150px;
+    margin-left: 200px;
+    background-color: red;
+    outline: none;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#main-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+    background-color: #050d1445;
+}
+
+.main-width-half{
+    width: 50%;
+    margin: auto;
+}
+
+
+.main-width-half > img{
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.main-left{
+    width: 30%;
+    margin-left: 140px;
+    margin-right: 0;
+    padding-left: 20px;
+}
+
+.main-left h1{
+    font-size: 50px;
+}
+.main-left p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #00000094;
+}
+.main-left > button{
+    background-color: red;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
