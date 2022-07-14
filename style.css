@@ -91,3 +91,49 @@ body{
     color: white;
     cursor: pointer;
 }
+
+#main-two-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #050d1445;
+}
+
+.half-width{
+    width: 45%;
+}
+
+.main-two-img{
+    text-align: right;
+    margin-right: 150px;
+}
+.main-two-img > img{
+    width: 70%;
+    height: 500px;
+    border-radius: 20px
+}
+
+.main-two-details{
+    width: 40%;
+    margin: 20px auto;
+}
+
+.main-two-details h1{
+    font-size: 50px;
+}
+.main-two-details p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #00000094;
+}
+.main-two-details > button{
+    background-color: red;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
