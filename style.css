@@ -137,3 +137,43 @@ body{
     color: white;
     cursor: pointer;
 }
+
+.live-on-donate{
+    width: 550px;
+    margin: 30px auto;
+}
+
+.live-on-donate > h1{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.live-on-donate > p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #0000008f;
+}
+
+.card-menu{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    background-color: #00000017;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 7px;
+}
+.card-icon{
+    margin-top: 18px;
+    padding: 5px;
+}
+
+.card-text{
+    margin-left: 10px;
+}
